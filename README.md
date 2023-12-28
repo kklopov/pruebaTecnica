@@ -1,7 +1,14 @@
+### Resumen 
+
+Almacenar los logs del fichero json en una colección de MongoDB.
+Crear una API para poder acceder y trabajar con los datos, crear un front para poder visualizar e interactuar con los datos, utilizando la API como intermediario entre el front y la base de datos
+
+
+### Detalles tecnicos
 La prueba consta en tres partes, las cuales tendrán que funcionar correctamente y en su conjunto.
 
 1.  **Base de Datos con MongoDB**
-2.  **Backend con Node.js**
+2.  **ServerSide con Node.js**
 3.  **Frontend con React**
 
 A continuación, se detallan los objetivos y recomendaciones para cada sección.
@@ -28,7 +35,7 @@ Es esencial no modificar manualmente el archivo  `./logs`. Este script es para u
 -   Utilizar librerías npm como  `mongodb`  o  `mongoose`.
 -   Desarrollo en un entorno Node.js.
 
-### 2. Backend, Node.js:
+### 2. ServerSide, Node.js:
 
 **Objetivo:**
 
