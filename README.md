@@ -56,5 +56,5 @@ El backend, utilizando Node.js, debe establecer conexión con MongoDB e implemen
 
 #### Ejemplo de pagina terminada 	
 
-![Ejemplo1](imgs/example1.png)
-![example3](imgs/example3.png)
+![Ejemplo1](img/example1.png)
+![example3](img/example3.png)
