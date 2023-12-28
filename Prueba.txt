@@ -1,0 +1,56 @@
+La prueba consta en tres partes, las cuales tendran que funcionar correctamente.
+	- Base de datos, MongoDB
+	- Backend, Node.js
+	- Frontend, React 
+	Como lenguaje de programacion se recomienda utilizar JavaScript o Typescript
+	Se pueden utilizar librerias si la tarea asi lo requiere. 
+
+
+Base de datos, MongoDB:
+	Objetivo: 
+		- Conectarse e interacturar con MongoDB. 
+		- Crear un script para importar objetos a MongoDB.
+
+	Explicacion:
+		Tienes un log que agrega diferentes logs de servicios, en un archivo JSON, con un objeto por linea,
+		necesitamos:
+			1- Formatear los logs, dejando solo los elementos "dt", "message" y "host".
+			2- Importar los logs formateados a MongoDB creando una nueva colleccion para el conjunto e importando en esta collecion cada uno de los objetos "log" como un nuevo documento.
+
+		No modifiques manualmente el archivo ./logs
+		Este escript no tiene por que ser parte del back/front, solo se pretende usarlo inicialmente para prepopular la base de datos 
+
+	Recomendaciones:
+		Librerias npm:
+			- "mongobd" o "Mongoose" 
+
+		Enviroment:
+			- Node.js
+
+
+Backend, Node.js:
+	Objetivo 
+		- Conectarse e interacturar con MongoDB 
+		- Crear un API endpoint para gestionar peticiones POST & GET.
+		- Al recibir peticiones correctas buscar en mongo y responder.
+		- Las busquedas en mongo deben ser por substring 
+
+	Explicacion:
+		El backEnd debe estar conectado a Mongo asi como tener un API endpoind expuesto al cual el front debe poder hacer peticiones, estas peticiones una vez recibidas, generaran una query para mongo, se ejecutara la busqueda en Mongo y se devolvera en un formato interpretable por el front.
+
+	Recomendaciones:
+		Librerias npm:
+			- "mongobd" o "Mongoose" 
+			- "express" u otras
+
+
+Frontend, React 
+	Objetivo
+		- Crear un frontEnd con React 
+		- Crear un campo input y un boton de busqueda
+		- Solicitar al Back que ejecute una busqueda en Mongo del contenido de ese input 
+		- Una vez recibida la respuesta, mostrarla.
+		- Dar estilos tanto a los inputs como a la respuesta
+
+	 
+
