@@ -61,7 +61,10 @@ El backend, utilizando Node.js, debe establecer conexión con MongoDB e implemen
 -   Enviar peticiones al backend y mostrar las respuestas recibidas.
 -   Aplicación de estilos a los elementos de la interfaz.
 
-#### Ejemplo de pagina terminada 	
+#### Ejemplos de pagina terminada 	
 
+Ejemplo1
 ![Ejemplo1](img/example1.png)
+
+Ejemplo2
 ![example3](img/example3.png)
